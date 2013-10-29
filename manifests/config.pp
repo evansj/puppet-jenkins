@@ -11,7 +11,7 @@
 # }
 #
 class jenkins::config(
-  $config_hash = {},
+  $config_hash = {}
 ) {
 
   include jenkins::package

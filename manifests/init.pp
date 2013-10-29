@@ -75,7 +75,7 @@ class jenkins(
   $configure_firewall = $jenkins::params::configure_firewall,
   $install_java       = $jenkins::params::install_java,
   $proxy_host         = undef,
-  $proxy_port         = undef,
+  $proxy_port         = undef
 ) inherits jenkins::params {
 
   $lts_real = str2bool($lts)

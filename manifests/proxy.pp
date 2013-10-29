@@ -1,7 +1,7 @@
 #
 class jenkins::proxy (
   $host = undef,
-  $port = undef,
+  $port = undef
 ) {
 
   file { '/var/lib/jenkins/proxy.xml':
